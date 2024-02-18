@@ -8,9 +8,10 @@ const teacherSchema = mongoose.Schema(
     },
     profilePicture: {
       type: String,
+      default:"https://res.cloudinary.com/dlykup1dh/image/upload/v1708214730/dummy/man_dzvfxr.png"
     },
     contact: {
-      type: Number,
+      type: String,
       required: true,
     },
     subject: {
